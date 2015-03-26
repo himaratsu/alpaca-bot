@@ -1,6 +1,6 @@
 {
-  "name": "alpaca-bot",
-  "version": "0.0.0",
+  "name": "alpaca",
+  "version": "0.0.1",
   "private": true,
   "author": "Ryosuke Hiramatsu <himaratsu@gmail.com>",
   "description": "A simple helpful robot for your Company",
