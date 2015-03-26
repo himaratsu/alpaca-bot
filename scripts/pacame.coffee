@@ -5,7 +5,7 @@
 #  Hubot paca me - Receive a alpaca
 
 module.exports = (robot) ->
-  robot.respond /shiba me/i, (msg) ->
+  robot.respond /paca me/i, (msg) ->
     module.exports.request(msg) (err, res, body) -> 
       photos = JSON.parse(body).photos.photo
       msg.send photos[Math.floor(Math.random() * photos.length)].url_l
